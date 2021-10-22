@@ -93,6 +93,32 @@
   section P{
   margin-bottom: 1rem;
   }
-  .container img{
-    width: 100%;
+
+  #gototop{
+    width: 80px;
+    height: 80px;
+    background-color: #ec1d25;
+    display: block;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+  } 
+  .swiper {
+    width: 1200px;
+    text-align: center;
+  }
+  .swiper img{
+      width: 100%;
+  }
+  .swiper-button-prev{
+    --swiper-theme-color: #ec1d25;
+  }
+  .swiper-button-next{
+    --swiper-theme-color: #ec1d25;
+  }
+  .swiper-pagination-bullet-active{
+    --swiper-theme-color: #ec1d25;
   }
